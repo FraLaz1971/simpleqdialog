@@ -1,0 +1,12 @@
+# thanks to http://kengine.sourceforge.net/tutorial/qt/simpledialog-eng.htm
+# needs Qt4 , Qt5 version will arrive ...
+# on ubuntu 18.04
+# sudo apt install qt4-dev qt4-dev-bin
+# could be other ...
+# to configure
+qmake -project
+qmake
+# to compile
+make
+# to run
+./simpleqdialog
